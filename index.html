@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Samuel Waltrich - Dev Links">
+    <title>Samuel Waltrich | Dev Links</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    
+    <main class="main-container">
+        <!-- Profile Section -->
+        <section class="profile">
+            <div class="image-container">
+                <img src="hacker.jpg" alt="Samuel Waltrich Hacker Image" class="profile-image">
+            </div>
+            <h1 class="name">Samuel Waltrich</h1>
+            <p class="tagline">Desenvolvedor Front-end & Tech Enthusiast</p>
+        </section>
+
+        <!-- Social Links Section -->
+        <section class="links-section">
+            <a href="https://www.linkedin.com/in/samuel-waltrich-de-paula-010a89366" target="_blank" class="link-card">
+                <span class="link-icon">LinkedIn</span>
+                <span class="link-text">Conecte-se comigo</span>
+                <span class="link-arrow">→</span>
+            </a>
+            
+            <a href="https://github.com/unbroxn" target="_blank" class="link-card">
+                <span class="link-icon">GitHub</span>
+                <span class="link-text">Veja meu código</span>
+                <span class="link-arrow">→</span>
+            </a>
+            
+            <a href="mailto:contato.unbronx@gmail.com" class="link-card">
+                <span class="link-icon">E-mail</span>
+                <span class="link-text">Entre em contato</span>
+                <span class="link-arrow">→</span>
+            </a>
+        </section>
+
+        <!-- Projects Highlight Section -->
+        <section class="projects-section">
+            <h2 class="section-title">Explorar</h2>
+            <div class="projects-grid">
+                <div class="project-mini-card clickable" data-target="modal-portfolio">
+                    <div class="project-info">
+                        <h3>Portfólio 2026</h3>
+                        <p>Web Apps & Sites</p>
+                    </div>
+                    <span class="project-tag">Ver Projetos</span>
+                </div>
+                
+                <div class="project-mini-card clickable" data-target="modal-about">
+                    <div class="project-info">
+                        <h3>Sistemas T.I.</h3>
+                        <p>Sobre Mim & Formação</p>
+                    </div>
+                    <span class="project-tag">Saiba Mais</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2026 • Samuel Waltrich</p>
+            <p class="location">Pato Branco, PR</p>
+        </footer>
+    </main>
+
+    <!-- Modal Portfolio -->
+    <div id="modal-portfolio" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="modal-title">Portfólio 2026</h2>
+            <div class="modal-body">
+                <p class="modal-desc">Em breve, aqui você encontrará links diretos para os sites que desenvolvi.</p>
+                <div class="placeholder-list">
+                    <div class="placeholder-item">
+                        <span>[ Projeto Futuro 01 ]</span>
+                        <span class="status">Aguardando...</span>
+                    </div>
+                    <div class="placeholder-item">
+                        <span>[ Projeto Futuro 02 ]</span>
+                        <span class="status">Aguardando...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal About -->
+    <div id="modal-about" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="modal-title">Sobre Samuel</h2>
+            <div class="modal-body">
+                <div class="about-info">
+                    <div class="info-group">
+                        <label>Graduação</label>
+                        <p>Cursando Análise e Desenvolvimento de Sistemas na Faculdade <strong>Unimater</strong>, em Pato Branco.</p>
+                    </div>
+                    <div class="info-group">
+                        <label>Ensino Médio & Técnico</label>
+                        <p>Terminei o ensino médio e o ensino técnico em ADS na Escola Estadual de Pato Branco, o <strong>Premen</strong>.</p>
+                    </div>
+                    <div class="info-group">
+                        <label>Experiência Profissional</label>
+                        <p>Atuo com suporte técnico de T.I. (manutenção e atendimento) e desenvolvimento Front-end focado em soluções funcionais.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
